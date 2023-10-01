@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header id="header">
+        <nav>
+            <div class="container flexdisplay">
+                <div class="navlogo">
+                    <a href="#heroSection"><h1><span>V</span>ipin<span> Y</span>adav</h1></a>
+                </div>
+
+                <div class="navMenu">
+                    <ul class="flexdisplay">
+                        <li><a href="#heroSection" class="navMenuItems navActive">Home</a></li>
+                        <li><a href="#aboutSection" class="navMenuItems">About</a></li>
+                        <li><a href="#skillSection" class="navMenuItems">Skills</a></li>
+                        <li><a href="#portfolioSection" class="navMenuItems">Projects</a></li>
+                        <li><a href="#contactSection" class="navMenuItems">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="navBtn">
+                    <button class="toggleBtn" onclick="modeToggle()">
+                        <img src="./icons/light_mode.svg">
+                        <img src="./icons/dark_mode.svg">
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="heroSection" class="container flexdisplay">
+        <div class="left">
+            <div class="position"><h3>Web Developer</h3></div>
+            <div class="name"><h1><span>V</span>ipin <span>Y</span>adav</h1></div>
+            <div class="about">Passionate and skilled web developer with a proven track record of creating dynamic, user-friendly websites.Let's collaborate to bring your web projects to life!</div>
+
+            <div class="btns">
+                <button><a download target="_blank" href="./icons/resume.png" class="downloadCv">Resume</a></button>
+                <button><a href="#contactSection" class="hireme">Contact Me</a></button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="circle">
+                <div class="imgBox">
+                    <img src="./icons/profile.png" alt="image">
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <a target="_blank"><img src="./icons/facebook.svg"></a>
+            <a target="_blank"><img src="./icons/linkedin.svg"></a>
+            <a target="_blank"><img src="./icons/github.svg"></a>
+        </div>
+    </section>
+    
+    <section id="aboutSection" class="container flexdisplay">
+        <div class="heading"><h1>About Me</h1></div>
+        <div class="left">
+            <div class="aboutImg"><img src="./icons/about.png"></div>
+        </div>
+        <div class="right">
+            <div class="aboutContent">
+                <p><span>Web developer</span> with a strong focus on front-end development. Proficient in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>Python</span> with a deep understanding of modern web standards and best practises.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skillSection" class="container flexdisplay">
+        <div class="heading"><h1>Skills</h1></div>
+        <div class="skills">
+            <div class="skill flexdisplay">
+                <h1>HTML</h1>
+                <h1 class="label">Advanced</h1>
+                <div class="progressbar"></div>
+                <div class="percentage">90%</div>
+            </div>
+            <div class="skill flexdisplay">
+                <h1>CSS</h1>
+                <h1 class="label">Intermediate</h1>
+                <div class="progressbar"></div>
+                <div class="percentage">80%</div>
+            </div>
+            <div class="skill flexdisplay">
+                <h1>Python</h1>
+                <h1 class="label">Intermediate</h1>
+                <div class="progressbar"></div>
+                <div class="percentage">80%</div>
+            </div>
+            <div class="skill flexdisplay">
+                <h1>JavaScript</h1>
+                <h1 class="label">Intermediate</h1>
+                <div class="progressbar"></div>
+                <div class="percentage">70%</div>
+            </div>
+            <div class="skill flexdisplay">
+                <h1>PHP</h1>
+                <h1 class="label">Intermediate</h1>
+                <div class="progressbar"></div>
+                <div class="percentage">70%</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolioSection" class="container flexdisplay">
+        <div class="heading"><h1>Projects</h1></div>
+        <div class="projects flexdisplay">
+            <div class="project">
+                <div class="thumbnail"></div>
+                <h1 class="projectName">Landing Page</h1>
+                <p class="projectDesc">Landing page using HTML and CSS.</p>
+                <div class="btns">
+                    <button><a >Visit</a></button>
+                    <button><a >Github</a></button> 
+                </div>
+            </div>
+            <div class="project">
+                <div class="thumbnail"></div>
+                <h1 class="projectName">Tribute Page</h1>
+                <p class="projectDesc">Tribute page using HTML and CSS.</p>
+                <div class="btns">
+                    <button><a >Visit</a></button>
+                    <button><a >Github</a></button> 
+                </div>
+            </div>
+            <div class="project">
+                <div class="thumbnail"></div>
+                <h1 class="projectName">Neon Buttons</h1>
+                <p class="projectDesc">Neon Bottons using HTML and CSS.</p>
+                <div class="btns">
+                    <button><a >Visit</a></button>
+                    <button><a >Github</a></button> 
+                </div>
+            </div>
+            <div class="project">
+                <div class="thumbnail"></div>
+                <h1 class="projectName">Animated Background</h1>
+                <p class="projectDesc">Animated Background using HTML and CSS.</p>
+                <div class="btns">
+                    <button><a >Visit</a></button>
+                    <button><a >Github</a></button> 
+                </div>
+            </div>
+            <div class="project">
+                <div class="thumbnail"></div>
+                <h1 class="projectName">Portfolio</h1>
+                <p class="projectDesc">Portfolio using HTML, CSS and JavaScript .</p>
+                <div class="btns">
+                    <button><a >Visit</a></button>
+                    <button><a >Github</a></button> 
+                </div>
+            </div>
+            <div class="project">
+                <div class="thumbnail"></div>
+                <h1 class="projectName">Calculator</h1>
+                <p class="projectDesc">Calculator using HTML, CSS and JavaScript.</p>
+                <div class="btns">
+                    <button><a >Visit</a></button>
+                    <button><a >Github</a></button> 
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section id="contactSection" class="container flexdisplay">
+        <div class="heading"><h1>Contact Me</h1></div>
+        <form id="cntact_form" class="flexdisplay">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="number" placeholder="Your Phone Number" required>
+            <textarea name="message" cols="25" row="10" placeholder="Write your message"></textarea>
+            <div class="btns">
+                <button type="submit"><a>Send</a></button>
+            </div>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <p>Contact: 00-0000-0000</p>
+        <p>E-mail: abcd@gmail.com</p>
+        <p>&copy; 2023 || All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
